@@ -41,7 +41,7 @@ def bday():
 
     entry=tk.Entry(root)
     entry.pack()
-    button=tk.Button(root, text = 'next', command=time)
+    button=tk.Button(root, text = 'next', command=time2)
     button.pack()
 
 
@@ -90,9 +90,10 @@ entry.pack()
 button=tk.Button(root, text = 'next', command=bday)
 button.pack()
 
-def time():
-    import clock 
 
+
+def time2():
+    import time2
 
 root.mainloop()
 
