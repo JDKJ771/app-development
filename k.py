@@ -1,3 +1,5 @@
+import mouse
+
 import tkinter as tk
 
 
