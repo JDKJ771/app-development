@@ -2,6 +2,20 @@ import tkinter as tk
 
 root = tk.Tk()
 
+def next():
+    import
+
+def A9():
+     textLabel = tk.Label(root, text = "what time does A3 start and end : ")
+    textLabel.pack()
+    root.title("Class sceadule")
+    entry=tk.Entry(root)
+    entry.pack()
+    entry=tk.Entry(root)
+    entry.pack()
+    button=tk.Button(root, text = 'next', command=next)
+    button.pack()
+
 def A8():
     textLabel = tk.Label(root, text = "what time does A3 start and end : ")
     textLabel.pack()
