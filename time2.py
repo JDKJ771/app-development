@@ -3,7 +3,7 @@ import tkinter as tk
 root = tk.Tk()
 
 def next():
-    import
+    import mainapp
 
 def A9():
      textLabel = tk.Label(root, text = "what time does A3 start and end : ")
@@ -79,7 +79,7 @@ def A3():
     entry.pack()
     entry=tk.Entry(root)
     entry.pack()
-    button=tk.Button(root, text = 'A4', command=A2)
+    button=tk.Button(root, text = 'A4', command=A4)
     button.pack()
 def A2():
     textLabel = tk.Label(root, text = "what time does A2 start and end: ")
