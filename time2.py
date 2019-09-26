@@ -1,3 +1,5 @@
+#if reading this, start at the bottom and work to top.
+#start
 import tkinter as tk
 
 root = tk.Tk()
@@ -5,6 +7,7 @@ root = tk.Tk()
 def next():
     import mainapp
 
+    #start def
 def A9():
      textLabel = tk.Label(root, text = "what time does A3 start and end : ")
     textLabel.pack()
@@ -91,6 +94,7 @@ def A2():
     entry.pack()
     button=tk.Button(root, text = 'A3', command=A3)
     button.pack()
+#end def 
 
 button=tk.Button(root, text = 'A1')
 button.pack()
@@ -105,3 +109,5 @@ entry.pack()
 
 button=tk.Button(root, text = 'A2', command=A2)
 button.pack()
+#end
+root.mainloop()
