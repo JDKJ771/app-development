@@ -9,7 +9,7 @@ textLabel = tk.Label(root, text = "you are now all set up. use your phone as you
 textLabel = tk.Label(root, text = "we will alert you when you are all set up") 
 textLabel.pack()
 root.title("class sceaduler")
-list = tk.List():
+setlist = tk.List():
       the
 
 root.mainloop()
