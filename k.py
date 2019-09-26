@@ -1,5 +1,6 @@
+#imports a different folder
 import mouse
-
+#start
 import tkinter as tk
 
 
@@ -8,7 +9,7 @@ root = tk.Tk()
 
 
 
-
+#start def
 
 #B day
 
@@ -60,7 +61,7 @@ def update_clock(self):
     now = time.strftime("%H:%M:%S")
     self.label.configure(text=now)
     self.root.after(1000, self.update_clock)
-
+#end def
 textLabel = tk.Label(root, text = "What are your A day classes: ")
 textLabel.pack()
 root.title("Class sceadule")
@@ -93,9 +94,9 @@ button=tk.Button(root, text = 'next', command=bday)
 button.pack()
 
 
-
+#imports different folder
 def time2():
     import time2
-
+#end
 root.mainloop()
 
