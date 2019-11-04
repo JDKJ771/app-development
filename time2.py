@@ -4,8 +4,7 @@ import tkinter as tk
 
 root = tk.Tk()
 
-def next():
-    import mainapp
+
 
     #start def
 def A9():
