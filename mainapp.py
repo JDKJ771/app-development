@@ -9,17 +9,12 @@ textLabel = tk.Label(root, text = "you are now all set up. use your phone as you
 textLabel = tk.Label(root, text = "we will alert you when you are all set up") 
 textLabel.pack()
 root.title("class sceaduler")
-utton=tk.Button(root, text = 'play a sound', command=alert)
-    button.pack()
-setlist = tk.List(the):
- 
-def alert():
-    import winsound
-    frequency = 2500  # Set Frequency To 2500 Hertz
-    duration = 1000  # Set Duration To 1000 ms == 1 second
-    winsound.Beep(frequency, duration)
-    setlist = tk.List(the)
-    
+button=tk.Button(root, text = 'see your classes!!!', command=the)
+button.pack()
+
+button=tk.Button(root, text = 'change your classes or add/subtract them', command=the)
+button.pack()
+the.print    
         
         
 root.mainloop()
