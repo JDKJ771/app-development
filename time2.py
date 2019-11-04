@@ -9,7 +9,7 @@ def next():
 
     #start def
 def A9():
-     textLabel = tk.Label(root, text = "what time does A3 start and end : ")
+    textLabel = tk.Label(root, text = "what time does A3 start and end : ")
     textLabel.pack()
     root.title("Class sceadule")
     entry=tk.Entry(root)
@@ -53,7 +53,7 @@ def A6():
     button.pack()
     
 def A5():
-   textLabel = tk.Label(root, text = "what time does A5 start and end: ")
+    textLabel = tk.Label(root, text = "what time does A5 start and end: ")
     textLabel.pack()
     root.title("Class sceadule")
     entry=tk.Entry(root)
@@ -95,7 +95,7 @@ def A2():
     button=tk.Button(root, text = 'A3', command=A3)
     button.pack()
 #end def 
-
+#this is the first
 button=tk.Button(root, text = 'A1')
 button.pack()
 
