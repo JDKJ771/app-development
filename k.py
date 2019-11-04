@@ -1,5 +1,3 @@
-#imports a different folder
-import mouse
 #start
 import tkinter as tk
 
@@ -10,6 +8,26 @@ root = tk.Tk()
 
 
 #start def
+def time2():
+    import time2
+    
+#C day
+def cday():
+     textLabel = tk.Label(root, text = "what are your B day classes: ")
+    textLabel.pack()
+    root.title("Class sceadule")
+
+    entryC1=tk.Entry(root)
+    entry.pack()
+
+    entryC2=tk.Entry(root)
+    entry.pack()
+
+    entryC3=tk.Entry(root)
+    entry.pack()
+    button=tk.Button(root, text = 'next', command=time2)
+    button.pack()
+
 
 #B day
 
@@ -18,31 +36,31 @@ def bday():
     textLabel.pack()
     root.title("Class sceadule")
 
-    entry=tk.Entry(root)
+    entryB1=tk.Entry(root)
     entry.pack()
 
-    entry=tk.Entry(root)
+    entryB2=tk.Entry(root)
     entry.pack()
 
-    entry=tk.Entry(root)
+    entryB3=tk.Entry(root)
     entry.pack()
 
-    entry=tk.Entry(root)
+    entryB4=tk.Entry(root)
     entry.pack()
 
-    entry=tk.Entry(root)
+    entryB5=tk.Entry(root)
     entry.pack()
     
-    entry=tk.Entry(root)
+    entryB6=tk.Entry(root)
     entry.pack()
 
-    entry=tk.Entry(root)
+    entryB7=tk.Entry(root)
     entry.pack()
 
-    entry=tk.Entry(root)
+    entryB8=tk.Entry(root)
     entry.pack()
 
-    entry=tk.Entry(root)
+    entryB9=tk.Entry(root)
     entry.pack()
     button=tk.Button(root, text = 'next', command=time2)
     button.pack()
@@ -65,33 +83,36 @@ def update_clock(self):
 textLabel = tk.Label(root, text = "What are your A day classes: ")
 textLabel.pack()
 root.title("Class sceadule")
-entry=tk.Entry(root)
+
+entryA1=tk.Entry(root)
 entry.pack()
-entry=tk.Entry(root)
+   
+entryA2=tk.Entry(root)
 entry.pack()
 
-entry=tk.Entry(root)
+entryA3=tk.Entry(root)
 entry.pack()
 
-entry=tk.Entry(root)
+entryA4=tk.Entry(root)
 entry.pack()
 
-entry=tk.Entry(root)
+entryA5=tk.Entry(root)
 entry.pack()
     
-entry=tk.Entry(root)
+entryA6=tk.Entry(root)
 entry.pack()
 
-entry=tk.Entry(root)
+entryA7=tk.Entry(root)
 entry.pack()
 
-entry=tk.Entry(root)
+entryA8=tk.Entry(root)
 entry.pack()
 
-entry=tk.Entry(root)
+entryA9=tk.Entry(root)
 entry.pack()
 button=tk.Button(root, text = 'next', command=bday)
 button.pack()
+
 
 
 #imports different folder
