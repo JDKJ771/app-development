@@ -13,18 +13,18 @@ def time2():
     
 #C day
 def cday():
-     textLabel = tk.Label(root, text = "what are your B day classes: ")
+    textLabel = tk.Label(root, text = "what are your B day classes: ")
     textLabel.pack()
     root.title("Class sceadule")
 
     entryC1=tk.Entry(root)
-    entry.pack()
+    entryC1.pack()
 
     entryC2=tk.Entry(root)
-    entry.pack()
+    entryC2.pack()
 
     entryC3=tk.Entry(root)
-    entry.pack()
+    entryC3.pack()
     button=tk.Button(root, text = 'next', command=time2)
     button.pack()
 
@@ -37,32 +37,32 @@ def bday():
     root.title("Class sceadule")
 
     entryB1=tk.Entry(root)
-    entry.pack()
+    entryB1.pack()
 
     entryB2=tk.Entry(root)
-    entry.pack()
+    entryB2.pack()
 
     entryB3=tk.Entry(root)
-    entry.pack()
+    entryB3.pack()
 
     entryB4=tk.Entry(root)
-    entry.pack()
+    entryB4.pack()
 
     entryB5=tk.Entry(root)
-    entry.pack()
+    entryB5.pack()
     
     entryB6=tk.Entry(root)
-    entry.pack()
+    entryB6.pack()
 
     entryB7=tk.Entry(root)
-    entry.pack()
+    entryB7.pack()
 
     entryB8=tk.Entry(root)
-    entry.pack()
+    entryB8.pack()
 
     entryB9=tk.Entry(root)
-    entry.pack()
-    button=tk.Button(root, text = 'next', command=time2)
+    entryB9.pack()
+    button=tk.Button(root, text = 'next', command=cday)
     button.pack()
 
 
@@ -85,31 +85,31 @@ textLabel.pack()
 root.title("Class sceadule")
 
 entryA1=tk.Entry(root)
-entry.pack()
+entryA1.pack()
    
 entryA2=tk.Entry(root)
-entry.pack()
+entryA2.pack()
 
 entryA3=tk.Entry(root)
-entry.pack()
+entryA3.pack()
 
 entryA4=tk.Entry(root)
-entry.pack()
+entryA4.pack()
 
 entryA5=tk.Entry(root)
-entry.pack()
+entryA5.pack()
     
 entryA6=tk.Entry(root)
-entry.pack()
+entryA6.pack()
 
 entryA7=tk.Entry(root)
-entry.pack()
+entryA7.pack()
 
 entryA8=tk.Entry(root)
-entry.pack()
+entryA8.pack()
 
 entryA9=tk.Entry(root)
-entry.pack()
+entryA9.pack()
 button=tk.Button(root, text = 'next', command=bday)
 button.pack()
 
