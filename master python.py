@@ -135,18 +135,18 @@ def cday():
 
     button=tk.Button(root, text = 'skip', command=time2)
     button.pack()
-def c():
+    def c():
        
-    val1 = entryC1.get()
-    val2 = entryC2.get()
-    val3 = entryC3.get()
-    if val1 == 'hi':
-        if val2 == 'hi':
-            if val3 == 'hi':
-                button=tk.Button(root, text = 'next', command=time2)
-                button.pack()
+        Ce1 = entryC1.get()
+        Ce2 = entryC2.get()
+        Ce3 = entryC3.get()
+            if Ce1 != (''):
+                if Ce2 != (''):
+                    if Ce3 != (''):
+                            button=tk.Button(root, text = 'next', command=time2)
+                            button.pack()
 
-
+    button=tk.Button(root, text = 'check', command=c)
     
 
 
@@ -198,15 +198,15 @@ def bday():
         Be7 = entryB7.get()
         Be8 = entryB8.get()
         Be9 = entryB9.get()
-        if Be1 == 'hi':
-            if Be2 == 'hi':
-                if Be3 == 'hi':
-                    if Be4 == '':
-                        if Be5 == '':
-                            if Be6 == '':
-                                if Be7 == '':
-                                    if Be8 == '':
-                                        if Be9 == '':
+        if Be1 != (''):
+            if Be2 != (''):
+                if Be3 != (''):
+                    if Be4 != (''):
+                        if Be5 != (''):
+                            if Be6 != (''):
+                                if Be7 != (''):
+                                    if Be8 != (''):
+                                        if Be9 != (''):
                                             button=tk.Button(root, text = 'next', command=cday)
                                             button.pack()
             
@@ -274,16 +274,16 @@ def A():
     Ae8 = entryA8.get()
     Ae9 = entryA9.get()
     if Ae1 != (''):
-        if Ae2 == (''):
-           if Ae3 == (''):
-                if Ae4 == (''):
-                      if Ae5 == (''):
-                            if Ae6 == (''): 
-                                    if Ae7 == (''):
-                                            if Ae7 == (''):
-                                                    if Ae8 == (''):
-                                                            if Ae9 == (''):
-                                                                    button=tk.Button(root, text = 'next', command=cday)
+        if Ae2 != (''):
+           if Ae3 != (''):
+                if Ae4 != (''):
+                      if Ae5 != (''):
+                            if Ae6 != (''): 
+                                    if Ae7 != (''):
+                                            if Ae7 != (''):
+                                                    if Ae8 != (''):
+                                                            if Ae9 != (''):
+                                                                    button=tk.Button(root, text = 'next', command=bday)
                                                                     button.pack()
 button=tk.Button(root, text = 'check', command=A)
 button.pack()
