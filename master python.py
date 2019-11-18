@@ -320,7 +320,7 @@ def hi():
                                                                             button=tk.Button(root, text = 'next', command=bday)
                                                                             button.pack()
         button=tk.Button(root, text = 'check', command=A)
-        button.pack(
+        button.pack()
 textLabel=tk.Label(root, text = "choose one ")
 textLabel.pack()
 root.title("Class sceadule")
