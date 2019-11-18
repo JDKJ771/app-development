@@ -223,6 +223,7 @@ def hi():
                                     button=tk.Button(root, text = 'next', command=time2)
                                     button.pack()
             button=tk.Button(root, text = 'check', command=c)
+            button.pack()
             #B day
         def bday():
             textLabel = tk.Label(root, text = "what are your B day classes: ")
