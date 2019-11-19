@@ -55,7 +55,7 @@ def time2():
             entry=tk.Entry(root)
             entry.pack()
             entry=tk.Entry(root)
-            entry.pack(
+            entry.pack()
             button5=tk.Button(root, text = 'B6', command=B6)
             button5.pack()
         def B4():
@@ -217,7 +217,7 @@ def hi():
                 Ce1 = entryC1.get()
                 Ce2 = entryC2.get()
                 Ce3 = entryC3.get()
-                    if Ce1 != (''):
+                if Ce1 != (''):
                         if Ce2 != (''):
                             if Ce3 != (''):
                                     button22=tk.Button(root, text = 'next', command=time2)
@@ -247,7 +247,7 @@ def hi():
             entryB8.pack()
             entryB9 = tk.Entry(root)
             entryB9.pack()
-             def B():
+            def B():
                 Be1 = entryB1.get()
                 Be2 = entryB2.get()
                 Be3 = entryB3.get()
