@@ -16,8 +16,8 @@ def time2():
             entry.pack()
             entry=tk.Entry(root)
             entry.pack()
-            button=tk.Button(root, text = 'next', command=next)
-            button.pack()
+            button1=tk.Button(root, text = 'next', command=next)
+            button1.pack()
         def B8():
             textLabel = tk.Label(root, text = "what time does B8 start and end : ")
             textLabel.pack()
@@ -26,8 +26,8 @@ def time2():
             entry.pack()
             entry=tk.Entry(root)
             entry.pack()
-            button=tk.Button(root, text = 'B9', command=B9)
-            button.pack()
+            button2=tk.Button(root, text = 'B9', command=B9)
+            button2.pack()
         def B7():
             textLabel = tk.Label(root, text = "what time does B7 start and end : ")
             textLabel.pack()
@@ -36,8 +36,8 @@ def time2():
             entry.pack()
             entry=tk.Entry(root)
             entry.pack()
-            button=tk.Button(root, text = 'B8', command=B8)
-            button.pack()
+            button3=tk.Button(root, text = 'B8', command=B8)
+            button3.pack()
         def B6():
             textLabel = tk.Label(root, text = "what time does B6 start and end: ")
             textLabel.pack()
@@ -46,8 +46,8 @@ def time2():
             entry.pack()
             entry=tk.Entry(root)
             entry.pack()
-            button=tk.Button(root, text = 'B7', command=B7)
-            button.pack()
+            button4=tk.Button(root, text = 'B7', command=B7)
+            button4.pack()
         def B5():
             textLabel = tk.Label(root, text = "what time does B5 start and end: ")
             textLabel.pack()
@@ -56,8 +56,8 @@ def time2():
             entry.pack()
             entry=tk.Entry(root)
             entry.pack(
-            button=tk.Button(root, text = 'B6', command=B6)
-            button.pack()
+            button5=tk.Button(root, text = 'B6', command=B6)
+            button5.pack()
         def B4():
             textLabel = tk.Label(root, text = "what time does B4 start and end : ")
             textLabel.pack()
@@ -66,8 +66,8 @@ def time2():
             entryA4time1.pack()
             entryA4time2=tk.Entry(root)
             entryA4time2.pack()
-            button=tk.Button(root, text = 'B5', command=B5)
-            button.pack()
+            button6=tk.Button(root, text = 'B5', command=B5)
+            button6.pack()
         def B3():
             textLabel = tk.Label(root, text = "what time does B3 start and end : ")
             textLabel.pack()
@@ -76,8 +76,8 @@ def time2():
             entryA3time1.pack()
             entryA3time2=tk.Entry(root)
             entryA3time2.pack()
-            button=tk.Button(root, text = 'B4', command=B4)
-            button.pack()
+            button7=tk.Button(root, text = 'B4', command=B4)
+            button7.pack()
         def B2():
             textLabel = tk.Label(root, text = "what time does B2 start and end: ")
             textLabel.pack()
@@ -86,12 +86,12 @@ def time2():
             entryA2time1.pack()
             entryA2time2=tk.Entry(root)
             entryA2time2.pack()
-            button=tk.Button(root, text = 'B3', command=B3)
-            button.pack()
+            button8=tk.Button(root, text = 'B3', command=B3)
+            button8.pack()
             #end def 
             #this is the first
-            button=tk.Button(root, text = 'B1')
-            button.pack()
+            button9=tk.Button(root, text = 'B1')
+            button9.pack()
             textLabel = tk.Label(root, text = "what time does B1 start and end: ")
             textLabel.pack()
             root.title("Class sceadule")
@@ -99,8 +99,8 @@ def time2():
             entryA1time1.pack()
             entryA1time2=tk.Entry(root)
             entryA1time2.pack()
-            button=tk.Button(root, text = 'B2', command=B2)
-            button.pack()
+            button10=tk.Button(root, text = 'B2', command=B2)
+            button10.pack()
     #ADAY
  def ATime():
             def A9():
@@ -111,8 +111,8 @@ def time2():
                 entry.pack()
                 entry=tk.Entry(root)
                 entry.pack()
-                button=tk.Button(root, text = 'B days', command=Btime)
-                button.pack()
+                button11=tk.Button(root, text = 'B days', command=Btime)
+                button11.pack()
             def A8():
                 textLabel = tk.Label(root, text = "what time does A8 start and end : ")
                 textLabel.pack()
@@ -121,8 +121,8 @@ def time2():
                 entry.pack()
                 entry=tk.Entry(root)
                 entry.pack()
-                button=tk.Button(root, text = 'A9', command=A9)
-                button.pack()
+                button12=tk.Button(root, text = 'A9', command=A9)
+                button12.pack()
             def A7():
                 textLabel = tk.Label(root, text = "what time does A7 start and end : ")
                 textLabel.pack()
@@ -131,8 +131,8 @@ def time2():
                 entry.pack()
                 entry=tk.Entry(root)
                 entry.pack()
-                button=tk.Button(root, text = 'A8', command=A8)
-                button.pack()
+                button13=tk.Button(root, text = 'A8', command=A8)
+                button13.pack()
             def A6():
                 textLabel = tk.Label(root, text = "what time does A6 start and end: ")
                 textLabel.pack()
@@ -141,8 +141,8 @@ def time2():
                 entry.pack()
                 entry=tk.Entry(root)
                 entry.pack()
-                button=tk.Button(root, text = 'A7', command=A7)
-                button.pack()
+                button14=tk.Button(root, text = 'A7', command=A7)
+                button14.pack()
             def A5():
                 textLabel = tk.Label(root, text = "what time does A5 start and end: ")
                 textLabel.pack()
@@ -151,8 +151,8 @@ def time2():
                 entry.pack()
                 entry=tk.Entry(root)
                 entry.pack()
-                button=tk.Button(root, text = 'A6', command=A6)
-                button.pack()
+                button15=tk.Button(root, text = 'A6', command=A6)
+                button15.pack()
             def A4():
                 textLabel = tk.Label(root, text = "what time does A4 start and end : ")
                 textLabel.pack()
@@ -161,8 +161,8 @@ def time2():
                 entryA4time1.pack()
                 entryA4time2=tk.Entry(root)
                 entryA4time2.pack()
-                button=tk.Button(root, text = 'A5', command=A5)
-                button.pack()
+                button16=tk.Button(root, text = 'A5', command=A5)
+                button16.pack()
             def A3():
                 textLabel = tk.Label(root, text = "what time does A3 start and end : ")
                 textLabel.pack()
@@ -171,8 +171,8 @@ def time2():
                 entryA3time1.pack()
                 entryA3time2=tk.Entry(root)
                 entryA3time2.pack()
-                button=tk.Button(root, text = 'A4', command=A4)
-                button.pack()
+                button17=tk.Button(root, text = 'A4', command=A4)
+                button17.pack()
             def A2():
                 textLabel = tk.Label(root, text = "what time does A2 start and end: ")
                 textLabel.pack()
@@ -181,12 +181,12 @@ def time2():
                 entryA2time1.pack()
                 entryA2time2=tk.Entry(root)
                 entryA2time2.pack()
-                button=tk.Button(root, text = 'A3', command=A3)
-                button.pack()
+                button18=tk.Button(root, text = 'A3', command=A3)
+                button18.pack()
             #end def 
             #this is the first
-            button=tk.Button(root, text = 'A1')
-            button.pack()
+            button19=tk.Button(root, text = 'A1')
+            button19.pack()
             textLabel = tk.Label(root, text = "what time does A1 start and end: ")
             textLabel.pack()
             root.title("Class sceadule")
@@ -194,8 +194,8 @@ def time2():
             entryA1time1.pack()
             entryA1time2=tk.Entry(root)
             entryA1time2.pack()
-            button=tk.Button(root, text = 'A2', command=A2)
-            button.pack()
+            button20=tk.Button(root, text = 'A2', command=A2)
+            button20.pack()
     #end
 #end Def
 def hi():
@@ -211,8 +211,8 @@ def hi():
             entryC2.pack()
             entryC3=tk.Entry(root)
             entryC3.pack()
-            button=tk.Button(root, text = 'skip', command=time2)
-            button.pack()
+            button21=tk.Button(root, text = 'skip', command=time2)
+            button21.pack()
             def c():
                 Ce1 = entryC1.get()
                 Ce2 = entryC2.get()
@@ -220,10 +220,10 @@ def hi():
                     if Ce1 != (''):
                         if Ce2 != (''):
                             if Ce3 != (''):
-                                    button=tk.Button(root, text = 'next', command=time2)
-                                    button.pack()
-            button=tk.Button(root, text = 'check', command=c)
-            button.pack()
+                                    button22=tk.Button(root, text = 'next', command=time2)
+                                    button22.pack()
+            button23=tk.Button(root, text = 'check', command=c)
+            button23.pack()
             #B day
         def bday():
             textLabel = tk.Label(root, text = "what are your B day classes: ")
@@ -266,10 +266,10 @@ def hi():
                                         if Be7 != (''):
                                             if Be8 != (''):
                                                 if Be9 != (''):
-                                                    button=tk.Button(root, text = 'next', command=cday)
-                                                    button.pack()
-            button=tk.Button(root, text = 'check',command=B )
-            button.pack()
+                                                    button24=tk.Button(root, text = 'next', command=cday)
+                                                    button24.pack()
+            button25=tk.Button(root, text = 'check',command=B )
+            button25.pack()
                 #A day  
         def __init__(self):
             self.root = tk.Tk()
@@ -319,10 +319,10 @@ def hi():
                                                     if Ae7 != (''):
                                                             if Ae8 != (''):
                                                                     if Ae9 != (''):
-                                                                            button=tk.Button(root, text = 'next', command=bday)
-                                                                            button.pack()
-        button=tk.Button(root, text = 'check', command=A)
-        button.pack()
+                                                                            button26=tk.Button(root, text = 'next', command=bday)
+                                                                            button26.pack()
+        button27=tk.Button(root, text = 'check', command=A)
+        button27.pack()
 textLabel=tk.Label(root, text = "choose one ")
 textLabel.pack()
 root.title("Class sceadule")
