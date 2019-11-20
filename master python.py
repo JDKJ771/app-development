@@ -1,3 +1,5 @@
+import datetime
+cdt = datetime.datetime.now()
 #start
 import tkinter as tk
 root = tk.Tk()
@@ -216,7 +218,8 @@ def Highschool():
                                 At8t=entryA8time2.get()
                                 At9 = entryA9time1.get()
                                 At9t = entryA9time2.get()
-        
+                                if At1 == cdt:
+                                          
         #end
         #end Def
         def hi():
