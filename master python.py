@@ -216,10 +216,11 @@ def Highschool():
                                 At8t=entryA8time2.get()
                                 At9 = entryA9time1.get()
                                 At9t = entryA9time2.get()
-                                import datetime
-                                cdt = datetime.datetime.now()
-                                cm = cdt.hour, cdt.minute
+                                class datetime:
+                                   datetime.datetime.now()
+                                cm = (datetime.hour, datetime.minute)
                                 if At1 == cm:
+                                        
                                         
                                           
         #end
