@@ -198,7 +198,7 @@ def Highschool():
                     entryA1time2.pack()
                     button20=tk.Button(root, text = 'A2', command=A2)
                     button20.pack()
-                    def Adaytime():
+                    While True:
                                 At1 = entryA1time1.get()
                                 At1t = entryA1time2.get()
                                 At2= entryA2ime1.get()
@@ -218,9 +218,46 @@ def Highschool():
                                 At9 = entryA9time1.get()
                                 At9t = entryA9time2.get()
                                 class datetime:
-                                   datetime.datetime.now()
-                                cm = (datetime.hour, datetime.minute)
+                                        from playsound import playsound
+                                        datetime.datetime.now()
+                                        cm = datetime.hour, datetime.minute
                                 if At1 == cm:
+                                        playsound('audio.mp3')
+                                if At1t == cm:
+                                        playsound('audio.mp3')
+                                if At2 == cm:
+                                        playsound('audio.mp3')
+                                if At2t == cm:
+                                        playsound('audio.mp3')
+                                if At3 == cm:
+                                        playsound('audio.mp3')
+                                if At3t == cm:
+                                        playsound('audio.mp3')
+                                if At4 == cm:
+                                        playsound('audio.mp3')
+                                if At4t == cm:
+                                        playsound('audio.mp3')
+                                if At5 == cm:
+                                        playsound('audio.mp3')
+                                if At5t == cm:
+                                        playsound('audio.mp3')
+                                if At6 == cm:
+                                         playsound('audio.mp3')
+                                if At6t == cm:
+                                         playsound('audio.mp3')
+                                if At7 == cm:
+                                         playsound('audio.mp3')
+                                if At7t == cm:
+                                         playsound('audio.mp3')
+                                if At8 == cm:
+                                         playsound('audio.mp3')
+                                if At8t == cm:
+                                         playsound('audio.mp3')
+                                if At9 == cm:
+                                         playsound('audio.mp3')
+                                if At9t == cm:
+                                         playsound('audio.mp3')
+                                        
                                         
                                         
                                         
@@ -358,3 +395,4 @@ root.title("Class sceadule")
 button=tk.Button(root, text = 'high school', command=highschool)
 button.pack()
 root.mainloop()
+print(cm)
