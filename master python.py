@@ -2,7 +2,7 @@
 import tkinter as tk
 root = tk.Tk()
 #start def
-
+window = tk.Toplevel(root)
         #if reading this, start at the bottom and work to top.
     #start
         #start def
@@ -10,9 +10,10 @@ def Highschool():
         def BTime():
             #BDAY!!!!!!!!
                 def B9():
+                    
                     textLabel = tk.Label(root, text = "what time does B9 start and end : ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryB9time1=tk.Entry(root)
                     entryB9time1.pack()
                     entryB9time2=tk.Entry(root)
@@ -22,7 +23,7 @@ def Highschool():
                 def B8():
                     textLabel = tk.Label(root, text = "what time does B8 start and end : ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryB8time1=tk.Entry(root)
                     entryB8time1.pack()
                     entryB8time2=tk.Entry(root)
@@ -32,7 +33,7 @@ def Highschool():
                 def B7():
                     textLabel = tk.Label(root, text = "what time does B7 start and end : ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryB7time1=tk.Entry(root)
                     entryB7time1.pack()
                     entryB7time2=tk.Entry(root)
@@ -42,7 +43,7 @@ def Highschool():
                 def B6():
                     textLabel = tk.Label(root, text = "what time does B6 start and end: ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryB6time1=tk.Entry(root)
                     entryB6time1.pack()
                     entryB6time2=tk.Entry(root)
@@ -52,7 +53,7 @@ def Highschool():
                 def B5():
                     textLabel = tk.Label(root, text = "what time does B5 start and end: ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryB5time1=tk.Entry(root)
                     entryB5time1.pack()
                     entryB5time2=tk.Entry(root)
@@ -62,7 +63,7 @@ def Highschool():
                 def B4():
                     textLabel = tk.Label(root, text = "what time does B4 start and end : ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryAB4time1=tk.Entry(root)
                     entryB4time1.pack()
                     entryB4time2=tk.Entry(root)
@@ -72,7 +73,7 @@ def Highschool():
                 def B3():
                     textLabel = tk.Label(root, text = "what time does B3 start and end : ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryA3time1=tk.Entry(root)
                     entryA3time1.pack()
                     entryA3time2=tk.Entry(root)
@@ -82,7 +83,7 @@ def Highschool():
                 def B2():
                     textLabel = tk.Label(root, text = "what time does B2 start and end: ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryA2time1=tk.Entry(root)
                     entryA2time1.pack()
                     entryA2time2=tk.Entry(root)
@@ -95,7 +96,7 @@ def Highschool():
                     button9.pack()
                     textLabel = tk.Label(root, text = "what time does B1 start and end: ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time b days")
                     entryA1time1=tk.Entry(root)
                     entryA1time1.pack()
                     entryA1time2=tk.Entry(root)
@@ -107,7 +108,7 @@ def Highschool():
                     def A9():
                         textLabel = tk.Label(root, text = "what time does A9 start and end : ")
                         textLabel.pack()
-                        root.title("Class sceadule")
+                        root.title("Class time a days")
                         entry=tk.Entry(root)
                         entry.pack()
                         entry=tk.Entry(root)
@@ -117,7 +118,7 @@ def Highschool():
                     def A8():
                         textLabel = tk.Label(root, text = "what time does A8 start and end : ")
                         textLabel.pack()
-                        root.title("Class sceadule")
+                        root.title("Class time a days")
                         entry=tk.Entry(root)
                         entry.pack()
                         entry=tk.Entry(root)
@@ -127,7 +128,7 @@ def Highschool():
                     def A7():
                         textLabel = tk.Label(root, text = "what time does A7 start and end : ")
                         textLabel.pack()
-                        root.title("Class sceadule")
+                        root.title("Class time a days")
                         entry=tk.Entry(root)
                         entry.pack()
                         entry=tk.Entry(root)
@@ -137,7 +138,7 @@ def Highschool():
                     def A6():
                         textLabel = tk.Label(root, text = "what time does A6 start and end: ")
                         textLabel.pack()
-                        root.title("Class sceadule")
+                        root.title("Class time a days")
                         entry=tk.Entry(root)
                         entry.pack()
                         entry=tk.Entry(root)
@@ -147,7 +148,7 @@ def Highschool():
                     def A5():
                         textLabel = tk.Label(root, text = "what time does A5 start and end: ")
                         textLabel.pack()
-                        root.title("Class sceadule")
+                        root.title("Class time a days")
                         entry=tk.Entry(root)
                         entry.pack()
                         entry=tk.Entry(root)
@@ -157,7 +158,7 @@ def Highschool():
                     def A4():
                         textLabel = tk.Label(root, text = "what time does A4 start and end : ")
                         textLabel.pack()
-                        root.title("Class sceadule")
+                        root.title("Class time a days")
                         entryA4time1=tk.Entry(root)
                         entryA4time1.pack()
                         entryA4time2=tk.Entry(root)
@@ -167,7 +168,7 @@ def Highschool():
                     def A3():
                         textLabel = tk.Label(root, text = "what time does A3 start and end : ")
                         textLabel.pack()
-                        root.title("Class sceadule")
+                        root.title("Class time a days")
                         entryA3time1=tk.Entry(root)
                         entryA3time1.pack()
                         entryA3time2=tk.Entry(root)
@@ -177,7 +178,7 @@ def Highschool():
                     def A2():
                         textLabel = tk.Label(root, text = "what time does A2 start and end: ")
                         textLabel.pack()
-                        root.title("Class sceadule")
+                        root.title("Class time a days")
                         entryA2time1=tk.Entry(root)
                         entryA2time1.pack()
                         entryA2time2=tk.Entry(root)
@@ -190,7 +191,7 @@ def Highschool():
                     button19.pack()
                     textLabel = tk.Label(root, text = "what time does A1 start and end: ")
                     textLabel.pack()
-                    root.title("Class sceadule")
+                    root.title("Class time a days")
                     entryA1time1=tk.Entry(root)
                     entryA1time1.pack()
                     entryA1time2=tk.Entry(root)
@@ -220,6 +221,7 @@ def Highschool():
                                    datetime.datetime.now()
                                 cm = (datetime.hour, datetime.minute)
                                 if At1 == cm:
+                                        
                                         
                                         
                                           
