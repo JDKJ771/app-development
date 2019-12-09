@@ -217,7 +217,8 @@ def Highschool():
                                 At8t=entryA8time2.get()
                                 At9 = entryA9time1.get()
                                 At9t = entryA9time2.get()
-                                class datetime:
+                                import datetime
+                              
                                         from playsound import playsound
                                         datetime.datetime.now()
                                         cm = datetime.hour, datetime.minute
@@ -344,6 +345,7 @@ def Highschool():
                     self.update_clock()
                     self.root.mainloop()
                 #end def
+            def Aday():
                 textLabel=tk.Label(root, text = "what are your A day classes: ")
                 textLabel.pack()
                 root.title("Class sceadule")
