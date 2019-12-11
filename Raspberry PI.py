@@ -32,7 +32,7 @@ if Maininput == 'Hey' + Select_name:
             print('hello' + whatIsYourName+ ',What can i help you with)
 
 if Maininput == 'what time is it':
-                  print(now)
+                  print(currenttime)
                   
             
             
