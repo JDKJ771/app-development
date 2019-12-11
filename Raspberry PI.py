@@ -8,11 +8,13 @@ class AI:
 P1 = AI(Select_name)
 
 def list():
-      print('define words \n tell you my name (make sure you type WHat is your name) \n What i am (type what are you) \n 
+      print('define words(type define than the word you want to define) \n tell you my name (make sure you type What is your name) \n What i am (type what are you) \n 
 
 whatIsYourName = ('my name' + P1)
 WhatCanIDO = 'here is a list of things i can do'
 WhatAreYou = 'I am a ANI or Artificial Narrow Intelligence'
+define dictionary():
+            
             
 Maininput = input('Hello what can i do for you')
 
@@ -22,5 +24,7 @@ if Maininput == 'what is your name':
             
 if Maininput == 'what are you:
             print(WHatCanIDo)
+            
+            
 
     
