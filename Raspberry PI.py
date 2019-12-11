@@ -13,7 +13,7 @@ def list():
 whatIsYourName = ('my name' + P1)
 WhatCanIDO = 'here is a list of things i can do'
 WhatAreYou = 'I am a ANI or Artificial Narrow Intelligence'
-define dictionary():
+
             
             
 Maininput = input('Hello what can i do for you')
