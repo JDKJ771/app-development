@@ -2,7 +2,6 @@
 import tkinter as tk
 root = tk.Tk()
 #start def
-window = tk.Toplevel(root)
         #if reading this, start at the bottom and work to top.
     #start
         #start def
@@ -220,8 +219,8 @@ def Highschool():
                                 import datetime
                               
                                         from playsound import playsound
-                                        datetime.datetime.now()
-                                        cm = datetime.hour, datetime.minute
+                                        cdt = datetime.datetime.now()
+                                        
                                 if At1 == cm:
                                         playsound('audio.mp3')
                                 if At1t == cm:
@@ -397,4 +396,4 @@ root.title("Class sceadule")
 button=tk.Button(root, text = 'high school', command=highschool)
 button.pack()
 root.mainloop()
-print(cm)
+print(cdt)
