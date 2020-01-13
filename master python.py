@@ -218,46 +218,7 @@ def Highschool():
                                 At9t = entryA9time2.get()
                                 import datetime
                               
-                                        from playsound import playsound
-                                        cdt = datetime.datetime.now()
-                                        
-                                if At1 == cm:
-                                        playsound('audio.mp3')
-                                if At1t == cm:
-                                        playsound('audio.mp3')
-                                if At2 == cm:
-                                        playsound('audio.mp3')
-                                if At2t == cm:
-                                        playsound('audio.mp3')
-                                if At3 == cm:
-                                        playsound('audio.mp3')
-                                if At3t == cm:
-                                        playsound('audio.mp3')
-                                if At4 == cm:
-                                        playsound('audio.mp3')
-                                if At4t == cm:
-                                        playsound('audio.mp3')
-                                if At5 == cm:
-                                        playsound('audio.mp3')
-                                if At5t == cm:
-                                        playsound('audio.mp3')
-                                if At6 == cm:
-                                         playsound('audio.mp3')
-                                if At6t == cm:
-                                         playsound('audio.mp3')
-                                if At7 == cm:
-                                         playsound('audio.mp3')
-                                if At7t == cm:
-                                         playsound('audio.mp3')
-                                if At8 == cm:
-                                         playsound('audio.mp3')
-                                if At8t == cm:
-                                         playsound('audio.mp3')
-                                if At9 == cm:
-                                         playsound('audio.mp3')
-                                if At9t == cm:
-                                         playsound('audio.mp3')
-                                        
+                                                
                                         
                                         
                                         
@@ -390,10 +351,5 @@ def Highschool():
                                                                                     button26.pack()
         button27=tk.Button(root, text = 'check', command=A)
         button27.pack()
-textLabel=tk.Label(root, text = "choose one ")
-textLabel.pack()
-root.title("Class sceadule")
-button=tk.Button(root, text = 'high school', command=highschool)
-button.pack()
+
 root.mainloop()
-print(cdt)
