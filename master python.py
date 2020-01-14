@@ -216,8 +216,7 @@ def Highschool():
                                 At8t=entryA8time2.get()
                                 At9 = entryA9time1.get()
                                 At9t = entryA9time2.get()
-                                import datetime
-                              
+                                
                                                 
                                         
                                         
