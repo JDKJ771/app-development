@@ -197,26 +197,27 @@ def Highschool():
                     entryA1time2.pack()
                     button20=tk.Button(root, text = 'A2', command=A2)
                     button20.pack()
-                    While True:
-                                At1 = entryA1time1.get()
-                                At1t = entryA1time2.get()
-                                At2= entryA2ime1.get()
-                                At2 = entryA2ime2.get()
-                                At3= entryA3ime1.get()
-                                At3 = entryA3ime2.get()
-                                At4= entryA1time1.get()
-                                At4t= entryA1time2.get()
-                                At5= entryA5time1.get()
-                                At5t= entryA5time2.get()
-                                At6= entryA6time1.get()
-                                At6t=entryA6time2.get()
-                                At7=entryA7time1.get()
-                                At7t=entryA7time2.get()
-                                At8=entryA8time1.get()
-                                At8t=entryA8time2.get()
-                                At9 = entryA9time1.get()
-                                At9t = entryA9time2.get()
-                                
+                    def checkADay():
+                            
+                            At1 = entryA1time1.get()
+                            At1t = entryA1time2.get()
+                            At2= entryA2ime1.get()
+                            At2 = entryA2ime2.get()
+                            At3= entryA3ime1.get()
+                            At3 = entryA3ime2.get()
+                            At4= entryA1time1.get()
+                            At4t= entryA1time2.get()
+                            At5= entryA5time1.get()
+                            At5t= entryA5time2.get()
+                            At6= entryA6time1.get()
+                            At6t=entryA6time2.get()
+                            At7=entryA7time1.get()
+                            At7t=entryA7time2.get()
+                            At8=entryA8time1.get()
+                            At8t=entryA8time2.get()
+                            At9 = entryA9time1.get()
+                            At9t = entryA9time2.get()
+                                    
                                                 
                                         
                                         
@@ -304,7 +305,7 @@ def Highschool():
                     self.update_clock()
                     self.root.mainloop()
                 #end def
-            def Aday():
+        def Aday():
                 textLabel=tk.Label(root, text = "what are your A day classes: ")
                 textLabel.pack()
                 root.title("Class sceadule")
@@ -339,16 +340,15 @@ def Highschool():
                     if Ae1 != (''):
                         if Ae2 != (''):
                            if Ae3 != (''):
-                                if Ae4 != (''):
+                               if Ae4 != (''):
                                       if Ae5 != (''):
                                             if Ae6 != (''): 
                                                     if Ae7 != (''):
                                                             if Ae7 != (''):
                                                                     if Ae8 != (''):
-                                                                            if Ae9 != (''):
-                                                                                    button26=tk.Button(root, text = 'next', command=bday)
-                                                                                    button26.pack()
-        button27=tk.Button(root, text = 'check', command=A)
-        button27.pack()
+                                                                            if Ae9 != (''):                                                                                        button26=tk.Button(root, text = 'next', command=bday)
+                                                                                   
+button27=tk.Button(root, text = 'check', command=A)
+button27.pack()
 
 root.mainloop()
